@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#c07474, #acb3cf, #73428a);
+    overflow-x: hidden;
+    cursor: none;
+}
+
+@font-face {
+    font-family: 'StyleScript';
+    src: url('./fonts/StyleScript-Regular.ttf') format('truetype');
+  }
+
+  .abellanpuche {
+    font-family: 'StyleScript', sans-serif;
+    color: rgba(0, 0, 0, 0.948);
+    text-shadow: rgba(0, 0, 0, 0.903) 0px 1px 2px;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 120px;
+  }
+  /* Header styles */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Navbar styles */
+  .navbar li {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 30px;
+    margin-left: 300px;
+  }
+  
+  .navbar a {
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: rgba(0, 0, 0, 0.903) 0px 1px 2px;
+    text-decoration: none;
+    font-family: 'Euclid Galactic', sans-serif;
+    font-size: 20px;
+  }
